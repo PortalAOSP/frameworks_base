@@ -102,7 +102,7 @@ interface IStatusBarService
     void hideFingerprintDialog();
 
     /**
-     * XenonHD
+     * PornAOSP
      */
     void toggleCameraFlash();
     void toggleNavigationBar(boolean enable);

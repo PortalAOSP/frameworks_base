@@ -4976,9 +4976,9 @@ public class StatusBar extends SystemUI implements DemoMode, TunerService.Tunabl
         }
     };
 
-    private XenonSettingsObserver mXenonSettingsObserver = new XenonSettingsObserver(mHandler);
-    private class XenonSettingsObserver extends ContentObserver {
-        XenonSettingsObserver(Handler handler) {
+    private PaospSettingsObserver mPaospSettingsObserver = new PaospSettingsObserver(mHandler);
+    private class PaospSettingsObserver extends ContentObserver {
+        PaospSettingsObserver(Handler handler) {
             super(handler);
         }
          void observe() {

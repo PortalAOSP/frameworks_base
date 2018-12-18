@@ -153,7 +153,7 @@ oneway interface IStatusBar
     void hideFingerprintDialog();
 
     /**
-     * XenonHD
+     * PornAOSP
      */
     void toggleCameraFlash();
 }

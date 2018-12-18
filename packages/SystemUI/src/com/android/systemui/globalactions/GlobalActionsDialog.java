@@ -135,7 +135,7 @@ class GlobalActionsDialog implements DialogInterface.OnDismissListener,
     private static final String GLOBAL_ACTION_KEY_SCREENRECORD = "screenrecord";
     private static final String SYSUI_PACKAGE = "com.android.systemui";
     private static final String SYSUI_SCREENRECORD_SERVICE =
-            "com.android.systemui.xenonhd.screenrecord.TakeScreenrecordService";
+            "com.android.systemui.paosp.screenrecord.TakeScreenrecordService";
 
     private final Context mContext;
     private final GlobalActionsManager mWindowManagerFuncs;

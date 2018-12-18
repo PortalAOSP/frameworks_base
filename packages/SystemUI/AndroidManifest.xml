@@ -292,7 +292,7 @@
 
         <!-- started from PhoneWindowManager
              TODO: Should have an android:permission attribute -->
-        <service android:name=".xenonhd.screenrecord.TakeScreenrecordService"
+        <service android:name=".paosp.screenrecord.TakeScreenrecordService"
             android:process=":screenrecord"
             android:exported="false" />
 
@@ -332,7 +332,7 @@
                   android:theme="@style/ExTunerSettings"
                   android:label="@string/statusbar_items_title"
                   android:process=":tuner"
-                  android:parentActivityName="com.xenonhd.settings.fragments.StatusbarSettings"
+                  android:parentActivityName="com.paosp.settings.fragments.StatusbarSettings"
                   android:exported="true">
         </activity>
 
@@ -340,7 +340,7 @@
                   android:theme="@style/ExTunerSettings"
                   android:label="@string/nav_bar"
                   android:process=":tuner"
-                  android:parentActivityName="com.xenonhd.settings.fragments.NavigationSettings"
+                  android:parentActivityName="com.paosp.settings.fragments.NavigationSettings"
                   android:exported="true">
         </activity>
 
@@ -348,7 +348,7 @@
                   android:theme="@style/ExTunerSettings"
                   android:label="@string/tuner_lock_screen"
                   android:process=":tuner"
-                  android:parentActivityName="com.xenonhd.settings.fragments.LockscreenSettings"
+                  android:parentActivityName="com.paosp.settings.fragments.LockscreenSettings"
                   android:exported="true">
         </activity>
 
@@ -398,17 +398,17 @@
             android:exported="false" />
 
         <!-- Springboard for launching the share activity -->
-        <receiver android:name=".xenonhd.screenrecord.GlobalScreenrecord$ShareReceiver"
+        <receiver android:name=".paosp.screenrecord.GlobalScreenrecord$ShareReceiver"
             android:process=":screenrecord"
             android:exported="false" />
 
         <!-- Callback for dismissing screenrecord notification after a share target is picked -->
-        <receiver android:name=".xenonhd.screenrecord.GlobalScreenrecord$TargetChosenReceiver"
+        <receiver android:name=".paosp.screenrecord.GlobalScreenrecord$TargetChosenReceiver"
             android:process=":screenrecord"
             android:exported="false" />
 
         <!-- Callback for deleting screenrecord notification -->
-        <receiver android:name=".xenonhd.screenrecord.GlobalScreenrecord$DeleteScreenrecordReceiver"
+        <receiver android:name=".paosp.screenrecord.GlobalScreenrecord$DeleteScreenrecordReceiver"
             android:process=":screenrecord"
             android:exported="false" />
 

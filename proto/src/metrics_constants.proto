@@ -6434,7 +6434,7 @@ message MetricsEvent {
     // Add new aosp constants above this line.
     // END OF AOSP CONSTANTS
 
-    // ACTION: Custom XenonHD metrics
-    XENONHD_SETTINGS = 2500;
+    // ACTION: Custom PornAOSP metrics
+    PAOSP_SETTINGS = 2500;
   }
 }
